@@ -21,7 +21,7 @@ conda info -a
 conda env create -n ~venv-basic-anomaly-detection python=`which python3`  -f conda_environment.yml
 source activate ~venv-basic-anomaly-detection
 
-py.test
+# py.test
 
 deactivate
 echo "========================================================================================="

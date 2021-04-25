@@ -24,7 +24,7 @@ echo $PYTHON_VERSION
 conda env create -n ~venv-basic-anomaly-detection python=$PYTHON_VERSION  -f conda_environment.yml
 source activate ~venv-basic-anomaly-detection
 
-py.test
+# py.test
 
 deactivate
 echo "========================================================================================="
