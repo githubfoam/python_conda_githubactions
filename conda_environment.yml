@@ -1,0 +1,9 @@
+name: basic-anomaly-detection_jupyter_notebook
+channels:
+- defaults
+dependencies:
+- python
+- numpy
+- jupyter
+- pytest
+- matplotlib
