@@ -3,7 +3,7 @@ name: "os matrix conda CI workflow"
 
 on:
   push:
-    branches: [ dev ]
+    branches: [ test ]
 
 jobs:
 
